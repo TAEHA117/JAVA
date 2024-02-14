@@ -59,3 +59,21 @@ String b; -> 변수 b의 자료형은 String이다.
     int a = 1;
     String b = "hello java";
 ```
+#### int 자료형 변수에 문자열을 대입하면 어떻게 될까?
+* 만약 int 자료형 변수인 a에 문자열을 대입하면 어떻게 되는지 알아보자.
+```
+    int a = "Hello java";
+        -> IDE에서는 다음과 가은 오류 메시지를 보여준다. 
+        -> 이 메시지는 String 자료형을 int 자료형으로 변경할 수 없다는 뜻이다.
+    오류 메세지 : Type mismatch: cannot convert from String to int    
+```
+---
+### 자주 쓰이는 자료형
+* int, String 외에 자바에서 가장 많이 사용하는 자료형을 알아보자.
+```
+    ● int     |   ● String
+    ● long    |   ● StringBuffer
+    ● double  |   ● List
+    ● boolean |   ● Map
+    ● char    |   ● Set
+```
