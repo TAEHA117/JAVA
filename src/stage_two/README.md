@@ -88,10 +88,11 @@ String b; -> 변수 b의 자료형은 String이다.
 * 뒤에서 자세하게 공부하겠지만 사용자가 자료형을 직접 만들 수도 있다.
   - 예를 들어 Animal이라는 클래스를 만들었다고 가정해보자.
 ```
-class Animal {
-}
+    class Animal {
+    }
 ```
 * Animal 클래스를 만들었다면 다음과 같이 Animal이란 자료형의 변수를 만들 수 있다. 이 코드는 다음과 같이 해석된다.
 ```
-Animal cat; <- cat 변수의 자료형은 Animal이며, cat 변수엔 Animal 자료형에 해당하는 값만 대입 가능
+    Animal cat; <- cat 변수의 자료형은 Animal이며, cat 변수엔 Animal 자료형에 해당하는 값만 대입 가능
 ```
+* 사용자 정의 자료형은 이렇게 만들 수 있다는 정도만 알고있자.
