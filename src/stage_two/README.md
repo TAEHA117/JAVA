@@ -77,3 +77,21 @@ String b; -> 변수 b의 자료형은 String이다.
     ● boolean |   ● Map
     ● char    |   ● Set
 ```
+* 예를 들어 StringBuffer, List 자료형에 해당되는 변수는 다음과 같이 만들 수 있다.
+  - 각 문장은 다음과 같이 해석한다.
+```
+    StringBuffer sb; <- sb 변수이 자료형은 StringBuffer로, sb변수에는 StringBuffer 자료형에 해당하는 값만 대입 가능
+    List myList; <- myList 변수의 자료형은 List로, myList 변수에는 List 자료형에 해당하는 값만 대입 가능
+```
+---
+### 사용자 정의 자료형
+* 뒤에서 자세하게 공부하겠지만 사용자가 자료형을 직접 만들 수도 있다.
+  - 예를 들어 Animal이라는 클래스를 만들었다고 가정해보자.
+```
+class Animal {
+}
+```
+* Animal 클래스를 만들었다면 다음과 같이 Animal이란 자료형의 변수를 만들 수 있다. 이 코드는 다음과 같이 해석된다.
+```
+Animal cat; <- cat 변수의 자료형은 Animal이며, cat 변수엔 Animal 자료형에 해당하는 값만 대입 가능
+```
