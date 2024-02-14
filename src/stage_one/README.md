@@ -42,4 +42,20 @@
     - 클래스 내에는 이러한 메서드를 여러 개 만들 수 있다.
 
 ### 점프 - 속성과 생성자 이해하기
-망가졌어뭔가ddasdsadasdsdddd
+* 자바 코드에는 속성과 생성자도 구성 요소로 포함된다 - 간단하게 알아보기
+
+```
+public class Sample {
+  
+  /* 속성 */
+  private String message;
+  
+  /* 생성자 */
+  public Sample(String message) {
+    this.message = message
+    }
+  }  
+```
+* 속성은 클래스의 상태를 나타내는 변수로, 클래스 내부에 선언된다.
+  - 생성자는 클래스 인스턴스를 생성할 때 실행되는 메서드이다.
+  - 주로 속성을 초기화하는 용도로 사용한다.
