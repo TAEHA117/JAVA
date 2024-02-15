@@ -11,5 +11,7 @@ public class Sample_52 {
 
         System.out.println(7 % 3); // 1
         System.out.println(3 % 7); // 3
+
+
     }
 }
