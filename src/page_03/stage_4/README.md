@@ -140,7 +140,7 @@ Hello Java 문자열에서 J는 여섯번째 인덱스에 위치한 문자이다
 ### substring
 <b>substring 메서드는 문자열에서 특정 문자열을 뽑아낼 때 사용한다.
 
-![img.png](img.png)
+![img.png](image/img.png)
 
 * 위처럼 substring(시작 위치, 끝 위치)와 같이 코드를 작성하면<br>
 문자열의 시작 위치에서 끝 위치까지의 문자를 뽑아내게 된다.
@@ -154,7 +154,7 @@ Hello Java 문자열에서 J는 여섯번째 인덱스에 위치한 문자이다
 ### toUpperCase
 <b>toUpperCase 메서드는 문자열을 모두 대문자로 변경할 때 사용한다.</b>
 
-![img_1.png](img_1.png)
+![img_1.png](image/img_1.png)
 문자열을 모두소문자로 변경할 때는 toLowerCase를 사용한다.
 
 ---
@@ -162,7 +162,7 @@ Hello Java 문자열에서 J는 여섯번째 인덱스에 위치한 문자이다
 ### split
 <b>split 메서드는 문자열을 특정한 구분자로 나누어 문자열 배열로 리턴한다.</b>
 
-![img_2.png](img_2.png)
+![img_2.png](image/img_2.png)
 
 * 이번 예처럼 a:b:c:d라는 문자열을 :(콜론)으로 나누어 {"a","b","c","d"} 문자열 배열을 만들 수 있다.
 
@@ -186,7 +186,7 @@ Hello Java 문자열에서 J는 여섯번째 인덱스에 위치한 문자이다
 ### 숫자 바로 대입하기
 <b> 문자열 포매팅은 String.format 메서드를 사용한다.</b>
 
-![img_3.png](img_3.png)
+![img_3.png](image/img_3.png)
 
 <b>이 예제의 결과값을 보면 알겠지만, 문자열 안에 정수 3을 삽입하는 방법을 보여준다.<br>
 문자열안에서 숫자를 넣고 싶은 자리에 %d를 입력하고, 삽입할 숫자 3을 두 번쨰 파라미터로 전달했다.<br>
