@@ -1,4 +1,4 @@
-package page_03.stage_2;
+package page_03.stage_2.java;
 
 public class Sample_56 {
     public static void main(String[] args) {
