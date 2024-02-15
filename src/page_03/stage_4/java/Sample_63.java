@@ -7,6 +7,6 @@ public class Sample_63 {
 
         System.out.println(a);
 
-        System.out.println(String.format("I eat %d apples.", 3)); // " I eat 3 apples." 출력
+        System.out.println(String.format("I eat %d apples.", 3)); // " I eat 3 apples." 출력.
     }
 }
