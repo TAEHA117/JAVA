@@ -52,5 +52,20 @@ a, b변수는 같은 문자열 값을 갖게 되지만 완전히 동일하지는
 
 ### Wrapper 클래스
 <b>int, long, double, float, boolean, char등의 원시 자료형에는 각각 그에 대응하는 Wrapper클래스가 있다.<br>
-Wrapper 클래스는 원시 자료형을 대신하여 사용할 수 있는 자료형으로, 객체지향 프로그래밍의 모든 기능을 활요할 수 있게 해준다.
+Wrapper 클래스는 원시 자료형을 대신하여 사용할 수 있는 자료형으로, 객체지향 프로그래밍의 모든 기능을 활요할 수 있게 해준다.</b>
+
+| 원시 자료형  | Wrapper 클래스 |
+|---------|-------------|
+| int     | Integer     |
+| long    | Long        |
+| double  | Double      |
+| float   | Float       |
+| boolean | Boolean     |
+| char    | Char        |
+
+* 앞으로 공부할 ArrayList, HashMap, HashSet 등은 데이터를 생성할 떄, <br>
+원시 자료형 대신 그에 대응하는 Wrapper 클래스를 사용해야 한다.
+* 이렇게 하면 값 대신 객체를 주고받을 수 있어서 코드를 객체 중심으로 작성하는 데 유리하다.
+
+
 
