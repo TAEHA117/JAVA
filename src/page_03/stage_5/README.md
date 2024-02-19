@@ -57,4 +57,15 @@ insert를 사용하여 0번째 위치에 hello라는 문자열을 삽입해보�
 
 ![img.png](image/img_3.png)
 
+---
+
+## subString
+<b>subString 메서드는 String 자료형의 substring 메서드와 동일하게 동작한다.<br>
+다음과 같이 subtring(시작 위치, 끝 위치)와 같이 사용하면 StringBuffer객체의 시작 위치에서<br>
+끝 위치까지의 문자를 뽑아낸다</b>
+
+![img.png](img.png)
+
+
+
 
