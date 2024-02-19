@@ -31,6 +31,30 @@ new StringBuufer()로 객체를 생성하면 String을 사용할 때보다 메�
 따라서 문자열을 추가하거나 변경하는 작업이 많으면 StringBuffer를, <br>
 적으면 String을 사용하는것이 유리하다.
 
+---
 
+### StringBuilder 알아보기
+<b>StringBuilder는 StringBuffer와 비슷한 자료형으로 사용법도 같다.</b>
+
+```
+StringBuliler sb = new StringBuilder();
+sb.append("hello");
+sb.append(" ");
+sb.append("jump to java");
+String result = sb.toString();
+System.out.println(result);
+```
+
+* StringBuffer는 멀티 스레드 환경에서 안전하다.
+  - StringBuilder는 SringBuffer보다 성능이 우수하다는 장점이 있다.
+  - 동기화를 고려할 필요가 없는 상황에서는 StringBuffer보다 StringBuilder를 사용하는것이 유리하다.
+
+---
+
+### insert
+<b>insert 메서드는 특정 위치에 원하는 문자열을 삽입할 수 있다.<br>
+insert를 사용하여 0번째 위치에 hello라는 문자열을 삽입해보자</b>
+
+![img.png](image/img_3.png)
 
 
