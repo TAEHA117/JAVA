@@ -1,4 +1,4 @@
-### 03-5 StringBuffer
+# 03-5 StringBuffer
 <b>StringBuffer는 문자열을 추가하거나 변경할 때 주로 사용하는 자료형이다.<br>
 StringBuffer의 다양한 메서드를 살펴보면서 StringBuffer의 사용법을 알아보자.
 
