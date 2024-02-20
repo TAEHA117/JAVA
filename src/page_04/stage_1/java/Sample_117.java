@@ -1,4 +1,4 @@
-package page_04.java;
+package page_04.stage_1.java;
 
 import java.util.ArrayList;
 

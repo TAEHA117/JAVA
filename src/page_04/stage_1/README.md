@@ -58,23 +58,23 @@ if (조건문) {
 |x <= y | x가 y보다 작거나 같다 |
 
 #### 간단한 예를 통해서 비교 연산자들에 대해서 더 자세히 알아보자.
-![img.png](image/img.png)
+![img.png](../image/img.png)
 * x에 3, y에 2를 대입한 후 x > y 라는 조건문을 출력하니 true가 출력된다.
 * 당연히 x가 y보다 값이 크기 때문이다.<br>
 <br>
 #### 앞서 본 코드와 달리 다음 조건문은 거짓이기 때문에 false가 출력된다.
-![img_1.png](image/img_1.png)
+![img_1.png](../image/img_1.png)
 
 #### x와 y는 같지 않다. 따라서 다음 조건문은 거짓이다.
-![img_2.png](image/img_2.png)
+![img_2.png](../image/img_2.png)
 
 #### x와 y는 같지 않다. 하지만 이번 조건문은 참이 된다.
-![img_3.png](image/img_3.png)
+![img_3.png](../image/img_3.png)
 
 #### 앞서 살펴본 택시 예제를 다음과 같이 바꾸어 보자.
 | "만약 3000원 이상의 돈을 가지고 있으면 택시를 타고, 그렇지 않으면 걸어가라."|
 |---|
-![img_4.png](image/img_4.png)
+![img_4.png](../image/img_4.png)
 * money >= 3000이란 조건문이 거짓이 되기 때문에 else 문의 문장이 수행되어 '걸어가라'가 출력된다.
 
 ---
@@ -95,7 +95,7 @@ if (조건문) {
 #### 이번에는 다음과 같은 상황을 코딩해 보자.
 | "돈이 3000원 이상 있거나 카드가 있다면 택시를 타고, 그렇지 않으면 걸어가라." |
 |---|
-![img_5.png](image/img_5.png)
+![img_5.png](../image/img_5.png)
 * money는 2000으로 3000보다 작지만 hasCard가 true이기 떄문에,
   - money >= 3000 || hasCard 조건문이 참이 되어 '택시를 타고 가라'가 출력된다.
 
@@ -107,7 +107,7 @@ if (조건문) {
 #### 그러기 위해 다음의 상황을 코딩해 보자.
 |"만약 주머니에 돈이 있으면 택시를 타고, 없으면 걸어가라."|
 |---|
-![img_6.png](image/img_6.png)
+![img_6.png](../image/img_6.png)
 * pocket 리스트에 안에 money란 요소가 있으므로,
   - pocket.contains("money")가 참이 되어 '택시를 타고 가라'가 출력된다.
 
@@ -121,12 +121,12 @@ if (조건문) {
 * 먼저 지갑에 돈이 있는지를 판단해야 하고, 지갑에 돈이 없으면 다시 카드가 있는지를 판단한다.
 * if와 else만으로 이 문장대로 코딩한다면 다음과 같다.
 
-![img_7.png](image/img_7.png)
+![img_7.png](../image/img_7.png)
 * if와 else가 여러 번 사용되어 한 번에 이해하기가 쉽지 않고 산만한 느낌이 든다.
 * 이를 보완하기 위해서 자바에는 여러 조건을 판단할 수 있게 하는 else if문이 있다.
 
 #### 다음은 else if문을 적용해 수정한 코드이다.
-![img_8.png](image/img_8.png)
+![img_8.png](../image/img_8.png)
 
 * else if는 이전 조건문이 거짓일 때 수행된다.
 * 따라서 여기서 pocket.contains("money")조건은 거짓이므로 else if 문이 수행되고,
