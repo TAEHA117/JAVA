@@ -3,7 +3,7 @@
 하지만 조건문의 문법이 조금 다르다.<br>
 for 문을 활용한 예제를 살펴보자<br>
 
-![img.png](img.png)
+![img.png](image/img.png)
 ```
 실행 결과 : 
 one
@@ -12,7 +12,7 @@ three
 ```
 
 <b>for 문은 다음과 같이 for each 문으로 변경할 수 있다.</b>
-![img_1.png](img_1.png)
+![img_1.png](image/img_1.png)
 ```
 실행 결과 : 
 one
@@ -31,6 +31,6 @@ for (type 변수명 : iterate) {
 * 그리고 변수명의 type(자료형)은 iterate 객체에 포함된 자료형과 일치해야 한다.
 
 #### 다음은 ArrayList로 구현한 예제이다. for문의 사용법은 String[] 배열을 사용했을 때와 동일하다.
-![img_2.png](img_2.png)
+![img_2.png](image/img_2.png)
 * 단, for each 문은 따로 반복 횟수를 명시적으로 주는 것이 불가능하고,
   - 한 단계씩 순차적으로 반복할 때만 사용이 가능하다는 제약이 있다.
