@@ -72,6 +72,6 @@ public class Sample {
     final List<String> a = List.of("a","b");
     a.add("c"); // UnsupportedOperationException 발생
     }
-  }  
+  } 
 ```
 
